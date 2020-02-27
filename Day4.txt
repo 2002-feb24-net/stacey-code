@@ -26,3 +26,4 @@ git origin
 
 make a repo
 
+activate the gitignore file before adding any code files to the repo
