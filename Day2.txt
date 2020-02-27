@@ -1,0 +1,86 @@
+Day 2 - 2/25/2020
+This week's topics:
+
+procedural c#
+variables
+data type 
+shell
+
+1. create a file
+2. rename the file 
+3. create a folder
+4. move fileinto the folder
+5. delete the folder and contents
+6. do git pull
+
+Command line environment
+[command/program][subcommand] (options) //some options with a double dash and some with one dash
+
+mkdir
+dotnet
+git
+
+-m "message"
+dotnet new console output-dir HelloWorld
+sometime general option before the subcommandm and some after.
+ 
+pwd - stands for print working directory
+explorer  - launches a new file explorer window
+explorer / (opens up a new file explorer window at the present working directory)
+- absolute path starts with a slash
+- relative path do not start with a slash and use the current folder
+- (master) at the end of a file path is to let you know that you are in a git folder
+
+7. look up "echo" and use it to output some text. [echo "my name is Stacey"]
+bash will expand to whatever that value is [echo $PATH]
+the dollar sign allows us to name variables in bash, like ABC=123 will assign the value 123 to ABC
+- you can signify the value of a variable with the dollar sign
+
+8. look up "which" and use it to find where dotnet is installed. [which dotnet]
+
+9. look up "grep" (look for text) and use it to search a file for some text. [grep "new" notes/bash-notes.txt] | "pipe" connect the output of the previous command to the subsequent command
+- you can make many commands work together ls -1 | grep o
+
+10. look up "find" (look for file) and use it to search for all .txt files in some folder. [find . -name "*.txt"]
+
+11. look up "cat" and use it to show file contents. [cat 
+
+12. use echo to make a new file with some contents. [echo "fun text" > file.txt]
+
+>> (appernd to the end of a file)
+
+* means a wild card that means 0 or more of a character.
+
+in practice, you want to use history of all commands (use the up arrow)
+
+tab completion, usually for file names, means if you start typing you can try an auto fill 
+- tab, tab will assist in finding the files and folders as much as possible.
+
+OOP and code:
+
+.NET Framework, desktop app
+win format
+WPF
+web - ASP.NET, WCF
+Entity framework
+
+EF Core, week 4
+ASP.NET Core, week 5 and 7
+
+c# is heavily influenced by Java, but tweaked a bit.
+.NET began in 2002, microsoft's answer to Java, with common API to build applications on windows. 
+Mono,/Xameran (mobile)is a third party effort to give a linux version for .NET zameran bought...check out the history
+
+.NET Core (2016) microsoft's reimplementation to be lightweight and simpler.
+same c# language for all
+
+soon will be .NET 5, 2020
+
+Intro to c#
+https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/local-environment
+control slash toggles with commenting, cw+tab gives you shortcut to write line to console
+to convert from strin to int -> int.Parse(input);
+
+create three separate project folders
+cww	
+

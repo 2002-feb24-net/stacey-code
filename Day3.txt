@@ -1,0 +1,38 @@
+Day 3 Revature Training 
+
+2/26/2020
+
+*Day 2 exercises reviewed
+Intellisense is used in vs code to make the coding more intuitive (like auto fill)
+
+Agenda:
+*operations on strings
+*arrays fixed length place holder for data
+*making a method
+*given access to code challenge
+*early release by 2:30 pm
+
+set up code in dotnet folder: [dotnet new console -n <NameSpace> -o .]
+String has methods like Contains, StartsWith, Split, Equals, and IndexOf...
+quick exercise: string in reverse order
+
+Array are a collection of data and the rules are as follows (in notes on git):
+to get an arrayget it from a built in method, default values, array initializer
+1. string[] words = "a sentance".split(' ');
+2. string[] morewords = new string[8];
+3. int[] thisString = {1, 2, 3, 4, 5}
+
+Accessing an array (see notes in git)
+
+Exercise - get a list of numbers from the user separated by spaces
+
+finish other two requirements for Arrays
+
+Do code signal interview practice arrays
+
+
+
+
+
+
+

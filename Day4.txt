@@ -1,0 +1,28 @@
+Day 4 Revature Training
+
+2/27/2020
+
+Watched presentation from other batch
+
+problem #given the number of seconds, print how many years old that is on each planet
+
+problem #2: given a string and a number, print all the substrings of that length
+
+git has been around for a long time and its main job is version control (VCS), or source control management (SCM) tool
+
+to get started (workflow):
+$ git clone https://github.com/yourFolder/PATH
+$ cd /~PATH
+$ git pull
+
+whe you call clone then you are getting a copy of the repository by its URL 
+
+1. make changes to the repo ( an absolutely new repository would require the command - git init)
+2. record those changes in the git, locally(git add <PATH>, git commit -m "description of changes"
+3. git push, updat eht recorded changes to a remote github
+ you can 1.  copy out any file you don't want to lose 2. delete repo and 3. clone
+git status 
+git origin 
+
+make a repo
+

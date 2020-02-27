@@ -1,0 +1,143 @@
+Wifi:
+Evt_revature
+Fall2019
+
+2/24/2020
+
+*I-9 forms filled out
+
+*Advancing Talent and technology - living with roommates
+-maintenance request: work order at front desk and inform Cameron
+
+*Communtication through slack
+- signed up with endlessL0ve()
+
+*Presentation: Nick, Fred, Shawn (online - VP of technology)
+- .NET batch
+- We will use C#
+- Java (90's and 2000)-drivers and everything
+
+*Introductions around the room (ice breaker)
+- name, education, experience and why you want to do this
+
+*About the program:
+- high level - screening and onboarding
+- 12-week program
+individual projects and community learning
+portfolio submission and interview at the end
+Clients/placement: financial service, manufacturing, consulting, mostly on the east coast
+placement discussed at the halfway point
+
+amazon, google, tesla, microsoft, infosys, accenture, boos allen
+not just technical
+
+Microsoft.NET (2003) is #2 in the industry, the only platform that works on any machine
+Languages:
+Lisp
+Schema
+Python
+Ruby
+
+not specialized for specific system/machine/framework
+leverage free tools as a student, cost as a professional
+focus web applications, asp.net
+scaleable, extensive
+
+github.com/microsoft/
+mobile
+
+Teamwork emphasis:
+1 on 1, quality control meetings, 
+4 -7 projects
+
+P0 - 4 weeks from now, individual
+P1 - pairing
+P2 - teams
+P3 - collab with batch
+
+9 weeks of topics
+dev ops
+decouple
+services - multiple languages working together
+UI/UX that is web specific
+microservices - 
+
+last 3 rweeks with live enterprise level program
+
+weekly assessments
+12-18 months of knowledge and experience
+full-stack development
+databases, logic, UX, security, monitoring
+
+the environment determines the code usage. rather than the code telling the enviroment how to run.
+Nick will be the trainer and manager.
+hr@revature.com for Human resources.
+
+Friday is a legal meeting to discuss the contract terms
+
+Logistics: 
+1-hour lunch
+breaks
+M-F 9 to 5
+projects up to P2 should take 24 hours ove the course of 2 weeks
+separate research from implementation - research doesn't count
+
+license and certs. don;t worry but at the end in week 11 time to test knowledge for standard test 
+
+microsoft tested will certify you...70-483 programming with c#
+
+Emily Bailey is the staging manager (comes in for batch handshake and end of P3 )
+promotion at staging 
+preparation for certs
+cody, andrew,  did java with testing automation.
+
+study together, google is best friend
+
+angular and sql with .NET framework
+
+QC are intimidating but useful.
+studying early morning is beneficial (build stoft skills)
+
+Set up salesforce account (timekeeping/payroll)
+used endlessL0ve()
+
+updated google to Umbrella123()
+
+Downloads for environment
+-git for windows
+text editor any familiar or Nano
+-visual studio code
+-.NET core SDK (ALLOWS us to compile and run)
+
+VS code open the folder to see a projecgt
+recommended - make a revature folder
+
+updated the setting using JSON 
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+
+*for git bash (command line environment)
+https://github.com/2002-feb24-net/trainer-code
+
+*git workflow
+1.  git clone https://github.com/2002-feb24-net/trainer-code
+2.  git pull
+3.  repeat 2
+
+*run a line of code (c#)
+dotnet new console -o HelloWorld
+
+*done from the revature folder
+
+installed a c# extension
+
+dotnet run -p HelloWorld (compiles and runs the HelloWorld)
+
+to study: go to learn git resource, https://learngitbranching.js.org/
+
+https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
+
+P0 c# console application that uses sql 
+
+
+
+
