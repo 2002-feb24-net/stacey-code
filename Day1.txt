@@ -124,7 +124,7 @@ https://github.com/2002-feb24-net/trainer-code
 3.  repeat 2
 
 *run a line of code (c#)
-dotnet new console -o HelloWorld
+dotnet new console -o HelloWorld .
 
 *done from the revature folder
 

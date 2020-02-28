@@ -1,0 +1,20 @@
+Program5
+
+the program should: ask the user for some multi-word term, like "central processing unit", and print the acronym for that term (in this case, "CPU").
+use multiple methods.
+split the changes across multiple commits, at least two: right after you run dotnet new, and at the end once the program is done.
+
+HR meeting
+hr@revature.com
+
+ooo (out of office)
+Cameron - housing
+uta@revature.com
+
+handbook coming via docusign
+do we need an new account if account with previous employer?
+
+attendance:
+manager is trainer
+(approves timecard)
+
