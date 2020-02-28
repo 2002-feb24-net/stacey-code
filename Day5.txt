@@ -12,9 +12,22 @@ Cameron - housing
 uta@revature.com
 
 handbook coming via docusign
-do we need an new account if account with previous employer?
+do we need an new account if account with previous employer? No
+
+ADP forms section with show benefits menu where you can meke your elections
+
 
 attendance:
 manager is trainer
 (approves timecard)
 
+next payroll day is March 13th
+(feb 29 thru march 13)
+
+certifications can be reimbursed when passed. 
+reimbursement request can be done through the employee portal.
+payback processed on tuesday
+
+
+//command to move 
+$ mv ../Day5Exercise .
