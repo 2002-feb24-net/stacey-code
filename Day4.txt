@@ -15,11 +15,11 @@ $ git clone https://github.com/yourFolder/PATH
 $ cd /~PATH
 $ git pull
 
-whe you call clone then you are getting a copy of the repository by its URL 
+when you call clone, then you are getting a copy of the repository by its URL 
 
-1. make changes to the repo ( an absolutely new repository would require the command - git init)
+1. make changes to the repo (an absolutely new repository would require the command - git init)
 2. record those changes in the git, locally(git add <PATH>, git commit -m "description of changes"
-3. git push, updat eht recorded changes to a remote github
+3. git push, updat the recorded changes to a remote github
  you can 1.  copy out any file you don't want to lose 2. delete repo and 3. clone
 git status 
 git origin 
@@ -27,3 +27,7 @@ git origin
 make a repo
 
 activate the gitignore file before adding any code files to the repo
+
+git add .
+git commit -m "description of the changes"
+git push
