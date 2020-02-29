@@ -22,14 +22,11 @@ namespace Day5Exercise
         {
             //split the phrase, get the 1st initial of each word
             string[] parts = phrase.Split(" ");
-            char[] initials = new char[parts.Length];
             for (int i = 0; i < parts.Length;i++)
             {
-                //prints the uppercase version of each initial in the set 
+                //changes the parts to uppercase version, prints first initial in the set 
                 parts[i] = parts[i].ToUpper();
-                char firstCap = parts[i][0];
-                initials[i] = firstCap;
-                Console.Write(firstCap);
+                Console.Write(parts[i][0]);
             }
             //finish the output with a summary
             Console.WriteLine($" is the Acronym for: {phrase}");

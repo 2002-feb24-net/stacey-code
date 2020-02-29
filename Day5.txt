@@ -28,6 +28,65 @@ certifications can be reimbursed when passed.
 reimbursement request can be done through the employee portal.
 payback processed on tuesday
 
+signed up on adp.com: staceyloulouse
+b0rn@ga1N
+
 
 //command to move 
 $ mv ../Day5Exercise .
+
+Meeting with Chris Bermudez
+About the contract
+Trial period ends wednesday
+unisys 
+capital one 
+geico
+accenture
+infosys
+.
+.
+.
+
+Offer day 3/4/2020
+maybe selected for project or permanent position
+within the united states
+up to 500 dollar advance and travel pay
+
+Content review
+dev tools: what do you use vs code for?
+how do you use the temminal with vscode
+use of the editor
+set up git
+bash
+vs code - use auto complete with intellisense
+git is the version control system
+
+week 5 we will do html in vscode
+team environment during P2
+commands clone, pull, status, addthe command used before you commit saves the changes permanently), commit, push
+bash is a command line environment that allows us to be in a particular working directory
+pwd is the present working directory relative and absolute paths
+
+.NET is a platform that can compile and run c# code
+.NET Core SDK is the software development Kit for c#
+.NET versions: .NET framework (old and windows only), .NET Core (new and cross-platform)
+dontnet new 
+dotnet run
+
+
+variables use camelCase, everything else is PascalCase
+variables have a scope (no global variables)
+value types get copied when passed to a function - int, double, bool
+reference types get the location of the data - strings, arrays (void is a method return type)
+
+alt-shift-f
+control slash
+shift tab -indent and un-indent
+
+strings - Length, [0] (indexing), +
+Contains, IndexOf, Split, ToUpper, ToLower
+
+arrays - new int[size], new  int[], and {1,2,3,4}
+
+QC may involve how you would solve a problem
+
