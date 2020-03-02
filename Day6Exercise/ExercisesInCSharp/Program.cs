@@ -7,24 +7,11 @@ namespace ExercisesInCSharp
         static void Main(string[] args)
         {
             int[] primes = {2,3,5,7,11,13,17,19};
-            int[] scrambled = ScrambledIndices(primes);
-            /*int[] newList = new int[primes.Length];
-            int element = RandElement(primes);
-            int[] randList = RemoveElement(primes, element);
-            
-            int k = 0;
-            PrintArray(randList);
-            while (randList.Length > 1)
-            {
-
-                randList = RemoveElement(randList, value);
-                PrintArray(randList);
-                k++;
-
-            }*/
+            int[] scrambled = ScrambledList(primes);
+            PrintArray(primes);
             PrintArray(scrambled);
         }
-        static int[] ScrambledIndices(int[] set)
+        static int[] ScrambledList(int[] set)
         {
             int[] newSet = new int[set.Length];
             int[] reducedList = set;
@@ -33,7 +20,6 @@ namespace ExercisesInCSharp
                 
                 int nextRand = RandElement(reducedList);
                 newSet[i] = nextRand;
-                Console.Write(newSet[i]);
                 reducedList = RemoveElement(reducedList, nextRand);
                 newSet[0] = reducedList[0];
             }
@@ -53,9 +39,7 @@ namespace ExercisesInCSharp
                     j++;
                 }
             }
-            Console.WriteLine($"({value} has been removed from your List)");
             return newList;
-
         }
         static int RandElement(int[] list)
         {
@@ -72,8 +56,6 @@ namespace ExercisesInCSharp
                 
             }
             Console.WriteLine();
-            
-
         }
 
     }
