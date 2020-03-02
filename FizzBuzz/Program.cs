@@ -12,6 +12,8 @@ namespace FizzBuzz
     Also, I want to know, at the end, how many Fizz, how many Buzz, how many Fizzbuzz.
     Your code should calculate that, and, put the numbers you get in a comment, so I
     can see them without running the code.
+
+    Results: 800 Fizz, 0 Buzz, 200 FizzBuzz
     */
     class Program
     {
