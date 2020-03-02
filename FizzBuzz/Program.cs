@@ -13,7 +13,7 @@ namespace FizzBuzz
     Your code should calculate that, and, put the numbers you get in a comment, so I
     can see them without running the code.
 
-    Results: 800 Fizz, 0 Buzz, 200 FizzBuzz
+    267 Fizz, 134 Buzz, 66 FizzBuzz
     */
     class Program
     {
@@ -58,7 +58,7 @@ namespace FizzBuzz
             } 
             else
             {
-                return true;
+                return false;
             }
         }
         static bool isByFive(int num)
