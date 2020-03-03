@@ -8,3 +8,6 @@ Classes/Objects
 -public allows the program to "see" the implementation of the method or class
 -override allows the method to gain its own implementation that is uniquely specific from the parent class (Objects)
 -name of the class should be the same as the file name.
+-method should contain a return type in the signature. If nothing is returned use "void"
+-input rules should not be in the program implemantation. That logic should go inside the object (class)
+-business rules are defined in the object/class
