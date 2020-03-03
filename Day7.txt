@@ -1,0 +1,10 @@
+Week B Day 2
+
+Classes/Objects
+-a place where data and logic/behavior get grouped together
+-fields are like variables. they exist in a class and are accessible to methods within that class
+-static assigns a method or class to a program and do not require an instance
+-access modifiers like public and private are keywords for the methods and classids
+-public allows the program to "see" the implementation of the method or class
+-override allows the method to gain its own implementation that is uniquely specific from the parent class (Objects)
+-name of the class should be the same as the file name.
