@@ -1,0 +1,38 @@
+Week B, Day 1
+Quiz
+QC standup
+coding challenge
+one-on-one meeting
+
+coming up...
+data structures
+array - multidimensional arrays
+sorting algorithms
+big o notation comparing precision/algorithm for efficiency
+iterative vs. recursive implementation
+debugger
+unit testing
+classes and objects
+methods, properties, fields, namespace, using directive
+everything in the .csproj file
+
+Outline of week B
+	Data structures
+		multi d array
+		non-generic collections
+		generic collections
+			list, set, dictionary
+	Sorting algorithms
+		bubble sort
+	Big-O notation
+	Iterative vs recursive implimentation
+	Debugger
+	(Unit Testing)
+	Classes and Objects
+		Methods
+		Properties
+		Fields
+		Namespaces
+		Projects
+		USING directive 
+

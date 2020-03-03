@@ -19,6 +19,10 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            StartFizzBuzz();
+        }
+        static void StartFizzBuzz()
+        {
             string fizz = "Fizz";
             string buzz = "Buzz";
             string fizzBuzz = "Fizzbuzz";
@@ -40,15 +44,15 @@ namespace FizzBuzz
                 }
                 else if (isByFive(i) && isByThree(i))
                 {
-                    Console.Write(fizzBuzz);
+                    Console.WriteLine(fizzBuzz);
                     fizzBuzzCount++;
                 }
                 else if (!isByFive(i) && !isByThree(i))
                 {
-                    Console.Write(i);
+                    Console.WriteLine(i);
                 }
             }
-            Console.Write($"{fizzCount} Fizz, {buzzCount} Buzz, {fizzBuzzCount} FizzBuzz");
+            Console.WriteLine($"{fizzCount} Fizz, {buzzCount} Buzz, {fizzBuzzCount} FizzBuzz");
         }
         static bool isByThree(int num)
         {
