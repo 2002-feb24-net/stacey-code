@@ -4,7 +4,8 @@ namespace MatrixExample
 {
     public class Matrix
     {
-        //set up a 2d matrix
+        //set up a nxn matrix
+        
         public int[,] mat = new int[2,2];
         
         public Matrix(int[,] value)
@@ -33,6 +34,30 @@ namespace MatrixExample
                 }
             }
             return sum;
+        }
+        public int[,] NegateMatrix(int[,] matVal)
+        {
+            int[,] neg = {{0,0},{0,0}};
+             for (int i=0; i<2;i++)
+            {
+                for (int j=0; j<2;j++)
+                {
+                    neg[i,j] = (-1)*matVal[i,j];
+                }
+            }
+            return neg;
+        }
+        public int[,] TransposeMatrix(int[,] matVal)
+        {
+            int[,] trans = {{0,0},{0,0}};
+             for (int i=0; i<2;i++)
+            {
+                for (int j=0; j<2;j++)
+                {
+                    trans[i,j] = matVal[j,i];
+                }
+            }
+            return trans;
         }
         public void PrintMatrix(int[,] mat1)
         {
