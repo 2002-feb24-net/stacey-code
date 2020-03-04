@@ -1,0 +1,42 @@
+Week B Day 3
+
+offer day - signed promissary note 36,500
+
+List  are generic, ordered, allowed to have duplicates, and can change
+Hash Set are generic, unordered, does not allow duplicates and can change size.
+Both are in the System.Collections.Generic namespace, and Count method in common
+
+can check contents with Contains
+populate with the Add dmethod
+depopulate with Remove method
+any substring can be added like in a UnionWith method to include more of the same tipe data
+ for each is how you would iterate through
+ based on array
+
+ use hash set for first duplicate question in codesignal
+ need a hash function with useful properties take what is inside the set 
+ advantage of being unordered ( insert is fast and able the search or check membership)
+ hash function makes the efficiency speed up to O(1) instead of O(n) that is true for list/arrays
+
+ search the array and add to a list, but see if it contains the value
+ if no duplicates found return -1 after the loop
+
+ initialize list:
+ List<int> seen = new List<int>();
+
+ initialize hash set:
+ HashSet<int> seen = new HashSet<int>();
+
+ search for the hashcode on the int Set
+ seen.nt32.GetHashCode
+
+ check the slack for set image, do a git pull for updates
+
+ binanry search is O(log(n))
+
+
+ Multi array  can be jagged in the sense that the inner dmensions do not have to be the same length
+
+
+Matrices - 
+make a class that can represent a matrix
