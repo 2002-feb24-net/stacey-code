@@ -11,3 +11,15 @@ Classes/Objects
 -method should contain a return type in the signature. If nothing is returned use "void"
 -input rules should not be in the program implemantation. That logic should go inside the object (class)
 -business rules are defined in the object/class
+
+Lists
+inderterminate size. list<int> found in System.Collections.Generic class
+Example:
+    List<int> numbers = new List<>();
+    int howMany = numbers.Count;
+    numbers.Add(123); //adds to the end of the list
+    int firstItem = number[0]; //access like an array
+    numbers.Insert(0,1000); //puts the value of 1000 in to the index 0 (beginning)
+
+    you can use foreach loop on any collection, anything that implements Ienumberable
+    
