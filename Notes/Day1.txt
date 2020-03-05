@@ -62,7 +62,7 @@ services - multiple languages working together
 UI/UX that is web specific
 microservices - 
 
-last 3 rweeks with live enterprise level program
+last 3 weeks with live enterprise level program/projects
 
 weekly assessments
 12-18 months of knowledge and experience
@@ -79,10 +79,10 @@ Logistics:
 1-hour lunch
 breaks
 M-F 9 to 5
-projects up to P2 should take 24 hours ove the course of 2 weeks
+projects up to P2 should take 24 hours over the course of 2 weeks
 separate research from implementation - research doesn't count
 
-license and certs. don;t worry but at the end in week 11 time to test knowledge for standard test 
+license and certs. don't worry but at the end in week 11 time to test knowledge for standard test 
 
 microsoft tested will certify you...70-483 programming with c#
 

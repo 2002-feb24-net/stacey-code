@@ -37,6 +37,14 @@ any substring can be added like in a UnionWith method to include more of the sam
 
  Multi array  can be jagged in the sense that the inner dmensions do not have to be the same length
 
+int[][] jArray = new int[2][]; 
+
+jArray[0] = new int[3]{1, 2, 3};
+
+jArray[1] = new int[4]{4, 5, 6, 7 };
 
 Matrices - 
 make a class that can represent a matrix
+
+bubble sort - swap consecutive pairs until there is a pass with no changes
+which initial order would be handled the fastest? the slowest?
