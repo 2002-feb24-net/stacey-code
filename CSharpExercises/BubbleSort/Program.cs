@@ -22,12 +22,13 @@ namespace BubbleSort
                 swapCount = 0;
                 for (int i=0; i<array.Length-1;i++)
                 {
+                    int temp = 0;
                     if (array[i]>array[i+1])
                     {
                         //swap the values in the adjacent elements
                         temp = array[i];
-                        arr[i] = arr[i+1];
-                        arr[i+1] = temp;
+                        array[i] = array[i+1];
+                        array[i+1] = temp;
                         swapCount++;
                     }
                     

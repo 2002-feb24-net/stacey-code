@@ -1,0 +1,24 @@
+Week B Day4
+
+Review of Bubble Sort
+-do while loop used
+Debugging code
+-config .json file to run the debugger on code that has an read or readline input request.
+-you can follow the stack trace. Alt+Click on the location of the error to jum to the place where the derror existed in the code
+- error closest to the problem is typically on top of the stack trace.
+-break pooints and stepping line by line are most useful in the debugger.
+-break point is like a pause in execution of the 
+-continue is going to allow debugger to keep going with the code 
+-restart lets you begin again
+-step out lets you jump up one method higher
+-step into lets you follow a method in its execution
+
+check a program with method and multiple loops 
+*put break points and watch variables change as you perform stepping.
+
+Merge Sort
+//uses a recursive algorithm
+
+fibonacci is the sum of the prevoius 2 elements
+
+recursion requires base case, and recursive case (break down and repeat; recalling method)

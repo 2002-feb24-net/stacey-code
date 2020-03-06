@@ -1,0 +1,34 @@
+Week B Day 5
+
+Big O notation, we discussed nested loops may be to the order of O(n^2)
+like in the case of bubble sort
+
+Dictionary is in System Collections Generic namespace
+insert and access with key value pairs
+allways initiallize with a built-in type or user defined type
+-becareful when using user-defined type because you have to know what it would meean for two objects would be equal
+we talk about
+-static vs. instance
+-field
+-methods (know array methods, etc)
+-properties
+-jagged arrays
+-bubble sort
+--fibonacci
+-var
+-basics of value types (variable contains a value in a certain memory location) vs. reference type (value are maintained regardless of sending over a method)
+separation of concern should be considered when constructing the considered
+we can store data in different type of Collections
+what tool would you use in certain situations
+describe bubble sort and merge sort (*in English)
+use recursion as one way to break down a problem into smaller sub problems
+-a method calling itself
+-interative on the other hand is handle by the for and while, foreach, 
+-foreach for a collection that doesn't have order and also if the index is not used with in the interative process
+Debugger - when do you use, what is it good for, step out, step in, 
+
+P0 - store application
+non-technical requirements
+menu interface
+(using the console application)
+classes: customer, product order, store locations due in the middle of week 3, March 25th
