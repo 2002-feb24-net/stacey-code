@@ -13,7 +13,7 @@ namespace PersonList
         }
         public override string ToString()
         {
-            return "Person: " + fullName;
+            return "Person: " + fullName +" "+ age + " years old";
         }
         
 
