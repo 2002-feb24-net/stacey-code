@@ -12,6 +12,24 @@ we talk about
 -field
 -methods (know array methods, etc)
 -properties
+(auto-implemented)
+class SampleClass
+{
+    public int SampleProperty { get; set; }
+}
+(user-defined property)
+class SampleClass
+{
+    private int _sample;
+    public int Sample
+    {
+        // Return the value stored in a field.
+        get => _sample;
+        // Store the value in the field.
+        set =>  _sample = value;
+    }
+}
+
 -jagged arrays
 -bubble sort
 --fibonacci
@@ -31,4 +49,4 @@ P0 - store application
 non-technical requirements
 menu interface
 (using the console application)
-classes: customer, product order, store locations due in the middle of week 3, March 25th
+classes: customer, product, order, store locations due in the middle of week 3, March 25th
