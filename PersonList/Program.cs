@@ -4,13 +4,10 @@ using System.Collections.Generic;
 namespace PersonList
 {
     /*Stacey Joseph
-
-
-7. Implement a method that will efficiently check for any duplicate names in a List of Persons,
-   returning true or false.
-8. Implement a method that will sort a List of Persons by name, using *insertion sort*.
-9. In a comment, describe the difference between insertion sort and bubble sort.
-10. Call these two methods on the created List and use Console to show the user the results.*/
+    9. In a comment, describe the difference between insertion sort and bubble sort. 
+       Insertion sort is a sorting algorithm that places values of an unordered list in order one-by-one.
+       Whereas, the bubble sort orders a list by comparing adjacent values (two-by-two).
+    10. Call these two methods on the created List and use Console to show the user the results.*/
     class Program
     {
         static void Main(string[] args)
@@ -36,8 +33,32 @@ namespace PersonList
             {
                 Console.WriteLine(aPerson);
             }
-            
+            Console.Write( $"It's {people.Count} people that exist.");
+            //Person Search
+            //PersonSort(people);
+
         }
-        
+        public bool SameNameExists(string nameToCheck, List<Person> list)
+        {
+            return true;
+
+        }
+        public void PersonSort(List<Person> list)
+        {
+            
+            for (int i=1; i<list.Count; i++)
+            {
+                Person temp = list[i];
+                for (int j=0; j<i; j++)
+                {
+                    /*
+                    if ()
+                    {
+
+                    }*/
+                }
+            }
+                
+        }
     }
 }
