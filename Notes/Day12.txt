@@ -1,0 +1,19 @@
+Week 1 Day 2
+3/10/2020
+
+Version Control                                                                                       
+SCM - Source control management
+git
+
+.net standard have various versions that support the different platforms such as:
+.net framework
+.net core
+
+.net framework - older version that keeps the CLR (common language runtime) at tje bottom of the hierachy
+of code implementation even below the base class library or ado.net and xml.
+above that are web forms nand services
+
+CLS helps translate code in cs, c++, Jscript...
+
+More powerpoint slides posted in the slack.
+
