@@ -1,19 +1,22 @@
-﻿using System;
+﻿using RockPaperScissors.Library;
+using System;
 
-namespace RockPaperScissors
+namespace RockPaperScissors.App
 {
     class Program
     {
         static void Main(string[] args)
         {
-            RockPaperScissorsGame game = new RockPaperScissorsGame();
+            InputterOutputter inputOutputSpecific = new InputterOutputter();
+            IInputterOutputter inputOutputGeneral = inputOutputSpecific; // this is called upcasting
+            var game = new RockPaperScissorsGame(inputOutputGeneral);
 
             bool readyToQuit = false;
 
             while (!readyToQuit)
             {
                 Console.Write("Do you want to play a round? (y/n)");
-                string input = Console.ReadLine();
+                var input = Console.ReadLine();
 
                 if (input == "n")
                 {
