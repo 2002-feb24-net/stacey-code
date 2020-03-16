@@ -1,0 +1,48 @@
+Week 1 Day 5
+3/13/2020
+
+Async
+
+A way to do multiple task run about the same time, taking turns for fulfillment
+The Task abstraction allows us to process serialization and other methods through async means.
+
+Use keyword async in method signature and in the name. Additionally, there should be an await keyword used in the other Read serialization statements
+
+example
+
+static async Task Main(string[] args){}
+
+serverside of a web app, multi-users service requests
+
+Interfaces are the best example of Abstraction, as well as properties and other methods that are predefined in the language.
+
+Encapsulation is a way of bundling data and behavior into one unit. A project with 10 class may have some that don't involve objects directly and therefore, causing most of the implementation to be "hidden."
+
+structs, delegates and enums cannot be overriden, but may appear in Inherited members or classes.
+
+example of polymorphism in properties:
+
+double _perimeter;
+
+double Perimeter
+{
+	get=> _perimeter;
+	set=> _perimeter = value;
+}
+
+
+Five design principles S.O.L.I.D.
+
+Single purpose
+Open-Close principle open for extension but closed for modification (without having to modify code for each scenario)
+Liskov Substitution - derived class should be autonomous of its parent (base class)
+Interface segragation only relateable components should be shared within a class
+Dependency Inversion is a way of building loosely coupled applications, while making considerations for separation of concerns
+
+Strategies for testing
+
+break down into parts and testing each one itself. two types: unit testing (debugger) which is class by class, and integration testing (use case) where more than one class is involved.
+
+xUnit, NUnit are third party testing implementation libraries
+MS uses MSTest
+dependency injection is where you are requiring certain code by signature of the code (as a parameter)

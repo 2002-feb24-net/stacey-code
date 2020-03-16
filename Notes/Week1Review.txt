@@ -1,0 +1,29 @@
+solution goes into the compiler to create CIL (common intermediate language) are stored as .dll files
+virtual execution system (VES) and standard libraries 
+BCL is the base class library arrays collections int strings
+to run dotnet code you need the common type systems (CTS)
+all languages can take advantage of these factors...
+.NET Core CLR implementation of the VES (manages gc, arrays, hash set and others that go in the HEAP which are considered to be reference types) 
+JIT Compiler converts to the CPU machine language for the OS (native instructions)
+
+anything outside of the CLR needs to have a signal to dispose of completed FileStream use (programmer is responsible for IDisposable content)
+
+/*using*/ block can be implemented for disposing FileStream content.
+
+regex
+
+
+alternate exception handling: 
+if(int.TryPase(input,out number))
+{
+	return number;
+}
+
+/*readonly*/ modifier can only be changed in a ctor, much like making a property have only a get;
+
+
+do the example with [FACT] and [theory]
+
+might be testing in the assessment
+
+in Preston Hall 306 on Monday or online Google Meet
