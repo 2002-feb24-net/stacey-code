@@ -1,7 +1,7 @@
 using Xunit;
-using Palindrome.Services;
+using PalindromeService;
 
-namespace Palindrome.UnitTests.Services
+namespace PalindromeCheck
 {
     public class PalindromeCheck_IsPalindromeShould
     {
