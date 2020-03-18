@@ -16,7 +16,10 @@ namespace Palindrome.UnitTests.Services
         [InlineData("nurses run")]
         [InlineData("racecaR")]
         [InlineData("1221")]
-        [InlineData("Malayalam")]
+        [InlineData("never odd, or even.")]
+        [InlineData("one two one")]
+        [InlineData("123abccba123")]
+
         public void IsPalindrome_ValuesNotSameInReverse_ReturnFalse(string value)
         {
             var result = _palindromeService.IsPalindrome(value);

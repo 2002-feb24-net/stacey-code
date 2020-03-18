@@ -14,3 +14,11 @@ for example, these should be considered palindromes:
 and these should not be considered palindromes:
 - "one two one"
 - "123abccba123"
+
+Results:
+
+Test Run Failed.
+Total tests: 6
+     Passed: 5
+     Failed: 1
+ Total time: 12.3051 Seconds
