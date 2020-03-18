@@ -12,13 +12,16 @@ namespace Palindrome.UnitTests.Services
             _palindromeService = new PalindromeService();
         }
 
-        [Fact]
-        public void IsPalindrome_InputIs1_ReturnFalse()
+        [Theory]
+        [InlineData("nurses run")]
+        [InlineData("racecaR")]
+        [InlineData("1221")]
+        [InlineData("Malayalam")]
+        public void IsPalindrome_ValuesNotSameInReverse_ReturnFalse(string value)
         {
-            var result = _palindromeService.IsPalindrome("Malayalam");
-
-            Assert.False(result, "Malayalam should not be palindrome");
-
+            var result = _palindromeService.IsPalindrome(value);
+    
+            Assert.False(result, $"{value} should not be palindrome");
         }
     }
 }
