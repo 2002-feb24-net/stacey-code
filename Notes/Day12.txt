@@ -9,7 +9,7 @@ git
 .net framework
 .net core
 
-.net framework - older version that keeps the CLR (common language runtime) at tje bottom of the hierachy
+.net framework - older version that keeps the CLR (common language runtime) at the bottom of the hierachy
 of code implementation even below the base class library or ado.net and xml.
 above that are web forms nand services
 
