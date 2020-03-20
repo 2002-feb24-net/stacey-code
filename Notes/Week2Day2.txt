@@ -1,0 +1,13 @@
+these are the general steps you should follow -
+in restaurant reviews, identify the classes which hold the data which we are storing, and, locate all the places where we do serialization, deserialization, and file I/O. it's not too many places.
+install the right EF Core package like Harold said - right click on "Dependencies" part of the project that needs it, and then "Manage Nuget Packages"
+create a class derived from DbContext, which has DbSets for each kind of class which will be going in the database. also, give it an OnConfiguring override which provides it a connection string.
+replace the deserializing code with code that uses an instance of your context class to get all this data as objects.
+(harder) replace the serializing code with code that goes through what your context sees in the DB and what you have in C#, and corrects the DB to have the same data.
+
+created database
+
+change password before using the following string
+
+
+Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=PerdonDb;Persist Security Info=False;User ID=stacey;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
