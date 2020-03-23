@@ -19,7 +19,12 @@ then run the command:
 
 dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=Customer;Persist Security Info=False;User ID=stacey;Password=Umbrella123();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer --startup-project ../StudentApp.App --force --output-dir Entities
 
-creates a folder in the solution
+
+dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=CornNuggets;Persist Security Info=False;User ID=stacey;Password=Umbrella123();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer --force --output-dir Entities
+
+creates a folder in the solution called Entities
+
+
 
 updated project 0
 
