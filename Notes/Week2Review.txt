@@ -4,7 +4,7 @@ Apply the principles in this week's agenda to your Project 0 as needed
 
 
 RDBMS (Table, Row, Column, PK, FK, Referential Integrity, Multiplicity)
-
+--relational database management system for SQL databases such as IBM's DB2, Oracle DB, MS SQL Server, and MySQL
 
 ORM (Entity Framework)
 
@@ -25,12 +25,14 @@ Normalization (Anomalies, Dependency, Candidate Key, 1NF, 2NF, 3NF)
 
 
 DML (Select, Insert, Update, Delete, Truncate)
+--data manipulation language
 
 
 DDL (Create, Alter, Drop)
 
 
 Constraints (PK, FK, Unique, Check, Null, Not-Null, Default)
+PK (primary key)
 
 
 JOIN (Inner-Join, Left-Join, Right-Join, Full-Join, Cross-Join, Self-Join)

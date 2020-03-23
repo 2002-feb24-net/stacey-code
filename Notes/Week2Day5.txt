@@ -24,6 +24,20 @@ dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.n
 
 creates a folder in the solution called Entities
 
+create an internal class to hid the connection string (copy and paste the following):
+
+namespace CornNuggets.Entities
+{
+    internal class SecretConfiguration
+    {
+        internal const string CommunicationString = "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=CornNuggets;Persist Security Info=False;User ID=stacey;Password=Umbrella123();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    } 
+}
+option builder statement (copy and paste in context):
+
+                optionsBuilder.UseSqlServer(SecretConfiguration.CommunicationString);
+
+
 
 
 updated project 0
