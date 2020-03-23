@@ -31,3 +31,13 @@ INSERT INTO Products (Name, Price) VALUES
 
 INSERT INTO Customers (Firstname, Lastname) VALUES
     ('Tina', 'Smith');
+
+SELECT *
+FROM Orders AS o
+WHERE ID = (Select ID FROM Customers AS c WHERE Firstname = 'Tina' AND Lastname = 'Smith');
+
+SELECT SUM(Price) FROM Products WHERE Name = 'iPhone';
+
+UPDATE Products 
+SET Price = 250.00 
+WHERE Name = 'iPhone';
