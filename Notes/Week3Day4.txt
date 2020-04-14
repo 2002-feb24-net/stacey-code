@@ -1,0 +1,32 @@
+Web development - MVC ASP.NET 
+
+go into the data 
+and add a DB context 
+
+
+in start up add services and options
+put connection string in appsettings.json (has { "Logging": { ...)
+
+build the solution
+
+scaffold the movie pages in the controllers folder
+	new scaffolded item
+choos vmc controller with views, usng entity framework
+the model class to use is song(stater.models
+context is starter.data.MvcSongContext
+select all view and controller name is SongsController...Add
+
+Add Migrations
+start debugging
+
+now we can start adding songs
+
+client side validation 
+
+go to the songs controller to get the details of a song. 
+
+
+go to models folder and right click to add a new class called deed data.
+
+
+

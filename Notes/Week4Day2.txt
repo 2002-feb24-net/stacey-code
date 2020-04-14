@@ -1,0 +1,110 @@
+Week 4 Day 2
+3/31/2020
+
+Client-side validation
+Server-side validation
+Agile
+Scrum
+
+Agile is set of values and principles - binded to the beliefs and decisions that lead to working software, individuals and interaction, customer collaboration and responding to change.
+Principles
+1.  Highest priority is to satisfy the customer with early and continuous delivery of valuable software.
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+3. Deliver working software frequently, from a couple of months to a couple of months, with a preference to the shorter timescale.
+4. Business people and developers must work together daily throughout the project
+5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+7. Working software is the primary measure of progress.
+8. Agile processes promote sustainable development. The sponsor, developers and users should be able to maintain a canstant pace indefinitely.
+9. Continuous attention to technical excellence and good design enhances agility.
+10. Simplicity  - the art of maximizing the amount of work not done is essential. 
+11. The best architecture, requirements and designs emerge from self-organizing teams.
+12. At regular intervals, the team reflects on how to become more effective then tunes and adjust its behavior accordingly.
+
+Practices should support the agile principle and values.
+right click 
+
+
+
+in secrets.json found in the solution (right-click the project and click on 'manage user secrets')
+
+
+{
+	"Connectionstrings":{
+	"CornNuggetsDb": "StringItself";
+	}
+}
+
+update configurations in the weui startup
+services.AddDbContext<CornNuggetsDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("CornNuggetsDb")));
+
+            services.AddScoped<ICornNuggetsRepository, CornNuggetsRepository>();
+
+            services.AddControllersWithViews();
+navigate to the right folder
+dataAccessProject
+
+REad Scenario
+
+user clicks on details for restaurant1
+(ctrl+F5 run without debugging)
+dotnet ef dbcontext scaffold
+
+Scrum - work in short cycles, continuous feedback, take action right away, use sprints that are mini project milestones, tasks go from to do, busy, to done. Review and then reflect for the next sprint.
+
+3 roles - product owner (defines the deliverables), scrum master (servant leader of the team overseeing the process), team members test and/or write the software.
+
+3 artifacts - Product backlog(list of features called user stories "as a ..., I need ...,so that...) , Sprint, Outcome (potentially shippable product), Review retrospective
+
+3 ceremonies - Sprint planning (estimate size of stories, daily scrum, sprint review at the end of the sprint)
+
+minimal feature set planned, build, test and review in 1-3 week intervals.
+actionlink html helper
+
+@Html.ActionLink("Edit","Edit", new {id=item.Id})
+when user clicks on the Edit link then the action method gets called
+
+routing + model binding-> RestaurantController.Edit(1)
+
+controller is intantiated with an instance of the repository
+ the repository is instatiated with an instance of the DbContext (configured in the Startup.ConfigureServices + ctors)
+
+in Edits action method...the repo is called to get the restaurant to be changed
+
+the repo exposes methods which talk onlyin terms of the business logic models
+
+interface is defined in the business logic library (Domain library class)
+
+the repo tells the dbcontext to get the drestaurant by ID
+has to build a business logic model from the dbcontext.
+the code to map between two forms is composed in the Mapper class.
+controller calls get restaurant by id
+in the repo.cs
+
+mapper is in the Mapper.cs kept in the Data Access
+
+
+
+readme file
+functionality place orders to store locations for customers add a new customer search customers by name display details of an order display all order history of a store location display all order history of a customer client-side validation [new] server-side validation [new] exception handling CSRF prevention persistent data; no prices, customers, order history, etc. hardcoded in C# logging [new] (optional: order history can be sorted by earliest, latest, cheapest, most expensive) (optional: get a suggested order for a customer based on his order history) (optional: display some statistics based on order history) (optional: asynchronous network & file I/O) (optional: deserialize data from disk) (optional: serialize data to disk) design use EF Core (either database-first approach or code-first approach) use an Azure SQL DB in third normal form don't use public fields define and use at least one interface core / domain / business logic class library contains all business logic contains domain classes (customer, order, store, product, etc.) documentation with
+
+XML comments on all public types and members (optional: and ) customer has first name, last name, etc. (optional: has a default store location to order from) order has a store location has a customer has an order time (when the order was placed) can contain multiple kinds of product in the same order rejects orders with unreasonably high product quantities (optional: some additional business rules, like special deals) location aka NuggetStores has an inventory inventory decreases when orders are accepted rejects orders that cannot be fulfilled with remaining inventory (optional: for at least one product, more than one inventory item decrements when ordering that product) product (etc.) user interface ASP.NET Core MVC web application [new] separate request processing and presentation concerns with MVC pattern [new] strongly-typed views [new] minimize logic in views [new] use dependency injection [new] customize the default styling to some extent [new] keep CodeNamesLikeThis out of the visible UI [new] data access [newly required] class library contains EF Core DbContext and entity classes contains data access logic but no business logic use repository pattern for separation of concerns test at least 10 test methods focus on unit testing business logic data access tests (if present) should not impact the app's actual database [new]
+
+
+
+Exception Handling for number input
+
+
+Console.WriteLine("Please enter a number");
+
+if (int.TryParse(Console.ReadLine(), out int input)==False)
+{
+	Console.WriteLine("Bad input, can't be text...just numbers");
+	return;
+{
+else
+{
+	//assign the actual value placed in "input" (the out parameter)
+	_input = input;
+}

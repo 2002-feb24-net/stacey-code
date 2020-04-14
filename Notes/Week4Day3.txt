@@ -1,0 +1,17 @@
+
+
+4/1/2020
+
+publish project to IIS using visual studio
+accept defaults
+use localhost
+
+
+provide the connection string using environment variable in IIS Manager 
+
+configuration editor
+collection editor
+add item
+enviroment variable
+name connection string and put in the value
+ 

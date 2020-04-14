@@ -1,0 +1,48 @@
+MDN is a good resource
+
+developer.mozilla.org -- overview of http messages
+
+Learning objectives
+- make controllers 
+- action methods 
+- returning status codes 
+
+for Rest Api
+
+head is a way to get meta data from a resource
+patch is similar to put, lets you send all the changes, anything you don't mention stays the same
+
+Put is able to do creation
+
+trace and connect are for diagnostics (not too import)
+
+
+Know -
+get (read), post (create), put, delete, options, patch
+*safe if its a readonly operation (GET, HEAD, and OPTIONS are safe)
+
+-constraints of rest - should be cacheable
+
+-example back but as for confirmation
+
+*idempotent
+
+multiple request give same state no matter what (because it doesn't make changes to the server)
+
+POST is not idempotent
+
+PUT, DELETE is idempotent because multiple request don't cause a problem
+
+
+when not in the post the action you're taking doesn't alter the state of the server
+
+that is the rule of thumb or best practices.
+
+PUT /light (...) {"state": "on"}  (idempotent)
+
+PUT /light/toggle (not idempotent)
+
+resource to read over: ics.ci.edu/~fielding/pubs/dissertation/rest_arch_style.htm (404 Notfound)
+content type - whats in the body
+media type is standardized and iana.org list them (used to be referred to as mime type)
+text/plain type like HTML, encodig, pdf, ppt, etc

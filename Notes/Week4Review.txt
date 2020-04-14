@@ -1,0 +1,91 @@
+/style>
+div {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+//form with slider and input field for output of sum onto the screen:
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+
+table example:
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+ 4/3/2020
+
+MVC
+Repo Pattern
+DevOps
+Azure Pipelines
+
+   <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+
+table styling
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+
+create view
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreferredStore" class="control-label"></label>
+                <select asp-for="PreferredStore" class="form-control" />
+                <span asp-validation-for="PreferredStore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+first and last name form
+
+
+                    <form action="/action_page.php">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value=""><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                

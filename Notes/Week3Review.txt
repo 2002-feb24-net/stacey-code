@@ -1,0 +1,45 @@
+*HTML Fundamentals (Elements, Attributes, Doctype, HTML 5)
+	Elements - has a start and end tag with content in between. Can be nested with in the <html> tag that defines the 		whole document. Document <body> element is nested within the <html> element. <br> is an empty element that doesn't 	have a closing tag. Tags are not case sensitive but usually written in all lowercase.
+		<html>, <body>, <a>, <p>, <img>, <
+
+	Attributes - provide additional information about the html elements and always specified in the start tag. Use name 	value pairs like: name="value". 
+		href is used in the <a> link tag and describes the address, 
+		src is used n the <img> image tag and describes the source name/location of the image
+		width/height is used to specify the size of the image
+		alt is used to specify alternative text if an image cannot be displayed. Available to be heard by visually 				impaired.
+		style is used to specify the styling of an element like font, color, and size
+		lang is used to declare the language of the document for screen readers/search engines "en-US" (English)
+		title is used to display a tooltip for when the item is moused over
+	Doctype
+		
+*Multimedia (Audio, Canvas, Video)
+
+*Forms (Input, Validation)
+
+*CSS Fundamentals (Rule, Property, Cascade, Inheritance, Box-Model, Media-Queries, Positioning, Responsive-Design, Values-
+
+*Color, Values-Size, External, Internal, Inline)
+
+*Selectors (Class, Id, Omni, Parent-Child, Parent-Descendant, Pseudo-Classes, Pseudo-Elements, Sibling, Tag)
+
+*MVC Concepts (Model, View, Controller)
+
+*Request Lifecycle (DNS, Response, Request)
+
+*Controller (Actions, HTTP Verbs)
+
+*Model (Data-Annotations, ViewModel)
+
+*View (Razor, Strongly-Typed, Weakly-Typed, Layout, ViewData, ViewBag, TempData, Partial Views)
+
+*Routing (Global, Attribute-Controller, Attribute-Action, Parameter-Route)
+
+*Validation (Server, Client, CSRF, Anti-Forgery)
+
+*Filters (Authorization, Exception, Resource, Action, Result)
+
+*Helpers (HTML, Tag, Custom)
+
+*Model Binding (Route parameters, query string, form data)
+
+*Dependency Injection (Singleton, Scoped, Transient, From-Services)

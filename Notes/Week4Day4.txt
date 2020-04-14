@@ -1,0 +1,7 @@
+Pipelines
+
+cd - continuous delivery level 2 of dev ops
+cd - continuous deployment level 3 of dev ops
+
+azure pipelines helps with this
+

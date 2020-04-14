@@ -1,0 +1,83 @@
+ASP.NET Core implements dependency injection by default. Services (such as the EF database context) are registered with dependency injection during application startup. Components that require these services (such as MVC controllers) are provided these services via constructor parameters.
+
+ASP.NET Core supports the dependency injection (DI) software design pattern, which is a technique for achieving Inversion of Control (IoC) between classes and their dependencies.
+git log - shows recent commits
+
+git revert [commit number]
+recreates the file to that version
+look at the changes - its another commit that reverses what you commited
+
+in pipelines
+
+- script: dotnet test
+  continueOnError: true (allows the pipeline run to continue even if the current script fails
+  displayName: dotnet test
+
+annotate with test results: have the build agent build logs
+ another type of step besides 'script' is 'task'
+
+- script dotnet test<test-project> --logger trx
+  displayName
+
+- task: PublishTestResult@versionnumber
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**.*trx'
+
+
+code coverage tells how good your unit testing is. example on eclemma.org (source code annotation)
+docs has an example
+
+publish to app services
+azure app service deploy --search for the task in the right of the window
+azure resource manager
+select subscription --authorize for the project to make changes on the 
+web app on windows
+pulls the name from the subscription
+app service name: pick from drop down
+then add.
+
+this adds the text into the pipeline.
+
+Settings ---done for you publishing
+dotnet corcli@2
+ints
+command: publish
+publishWebProjects
+
+
+cobertura.xml will be added to the Test Folder in the project.
+
+jobs help break down the scripts and tasks into groups that need not run sequentially or depend on the previous.
+step hierachy:
+
+- stage 
+  - job
+    - script
+      - task
+
+
+'publish' step is also available to use with the 'artifact' helper step
+'download' step allows you to download the artifact
+
+by default, jobs run in parallel
+wildcards are not acceptable artifact name for a output zip file
+
+the 'trigger:' can be based on 'batch:', 'branches:', 'tags, and paths and ou can include or exclue certain branch tag or file paths
+
+we can specify what version of dotnet we are using, in the pipeline
+
+sonarcube -
+
+server that provides a web application interface that reports code issues to you. Annotates the code to any degree of detecting bad code such as security vulnerability. analyzes repos.
+
+wioll be required in p2 for development
+login with github
+add repo
+once created, you get a project key
+
+choose other
+
+
+

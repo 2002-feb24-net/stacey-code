@@ -17,7 +17,10 @@ connection string comes from Azure ADO.net tab
 
 then run the command:
 
-dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=Customer;Persist Security Info=False;User ID=stacey;Password=Umbrella123();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer --startup-project ../StudentApp.App --force --output-dir Entities
+dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=Customer;Persist Security Info=False;User ID=stacey;Password=mypassword();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer  --force --output-dir Entities
+
+**when publishing put the connection string into the configuration for the app services created
+allow azure services and resouces to access in the firewall settings
 
 
 dotnet ef dbcontext scaffold "Server=tcp:2020-training-stacey.database.windows.net,1433;Initial Catalog=CornNuggets;Persist Security Info=False;User ID=stacey;Password=Umbrella123();MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer --force --output-dir Entities
@@ -36,9 +39,6 @@ namespace CornNuggets.Entities
 option builder statement (copy and paste in context):
 
                 optionsBuilder.UseSqlServer(SecretConfiguration.CommunicationString);
-
-
-
 
 updated project 0
 
@@ -99,3 +99,4 @@ at least 10 test methods
 use TDD for some of the application
 focus on unit testing business logic; testing the console app is very low priority
 
+Rainb00t$

@@ -1,0 +1,13 @@
+CornNuggets.DataAccess.Models.OrderLog
+
+IEnuberable<OrderLog> DataAccess.Repository.CornNuggets Repository
+
+images:
+
+orderhistory: https://drive.google.com/open?id=1vaQYxVfdNbR2_vgdjugz6NmUuMEGBO1p
+searchcustomer: https://drive.google.com/open?id=1Gh2_NstgEolnb1le37FXhqvWFfo8Xl6g
+orderdetails: https://drive.google.com/open?id=1-aFQ7ePcG3bwQv-w2hmCe3aZgOz-xCgJ
+neworder: https://drive.google.com/open?id=1cogEtGMvT8fG0pnEQeSKVsr4ixg32ZwY
+cornnuggets: https://drive.google.com/open?id=1fdBg7oHvPHW0TSgDome_z0Hac6L7u4sL
+addtocart: https://drive.google.com/open?id=1PKJUHucKP3Sx7GdSERpbaURCfltmTIoo
+addcustomer: https://drive.google.com/open?id=17Y0I_ZN1dSVDeX6Tc4cFCbPtb3aD6VMd
